@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRAVA - Pedix</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>BRAVA</h1>
+    <p class="status cerrado">En este momento estamos cerrados</p>
+    <a href="#" class="horarios">Consultar horarios</a>
+  </header>
+
+  <main>
+    <section class="categorias">
+      <h2>Categorías</h2>
+      <ul>
+        <li onclick="agregarAlCarrito('Hamburguesa')">🍔 HAMBURGUESAS <span class="oferta">Hasta 4% OFF</span></li>
+        <li onclick="agregarAlCarrito('Cerveza')">🍺 Cervezas</li>
+        <li onclick="agregarAlCarrito('Bebida sin Alcohol')">🥤 Bebidas sin Alcohol</li>
+        <li onclick="agregarAlCarrito('Papas')">🍟 PAPAS <span class="oferta">Hasta 38% OFF</span></li>
+        <li onclick="agregarAlCarrito('Trago')">🍸 Tragos</li>
+        <li onclick="agregarAlCarrito('Jarra')">🍹 JARRAS</li>
+      </ul>
+    </section>
+
+    <section class="carrito">
+      <h2>🛒 Tu pedido</h2>
+      <ul id="lista-carrito"></ul>
+      <button onclick="vaciarCarrito()">Vaciar carrito</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 BRAVA - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

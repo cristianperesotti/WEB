@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background: #ff4d4d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.status.cerrado {
+  font-weight: bold;
+  color: #fff;
+}
+
+.horarios {
+  display: block;
+  margin-top: 10px;
+  color: #ffe;
+  text-decoration: underline;
+}
+
+.categorias, .carrito {
+  padding: 20px;
+}
+
+.categorias ul, .carrito ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categorias li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.categorias li:hover {
+  background: #e6f7ff;
+}
+
+.oferta {
+  color: green;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.carrito {
+  background: #fff;
+  border-top: 2px solid #ccc;
+}
+
+.carrito button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  font-size: 0.9em;
+}
